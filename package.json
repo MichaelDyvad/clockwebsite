@@ -1,5 +1,8 @@
 {
   "type": "module",
+  "engines": {
+    "node": "18.8.0"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -11,6 +14,6 @@
   "description": "clock webapp",
   "main": "app.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node app.js"
   }
 }

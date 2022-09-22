@@ -8,7 +8,6 @@ app.use(express.static("public"));
 
 app.get("/", (req, res) => {
     res.sendFile(path.resolve("./public/frontpage.html"));
-    
 });
 
 app.listen(process.env.PORT || 8080, (error)=> {
