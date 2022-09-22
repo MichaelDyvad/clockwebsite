@@ -1,29 +1,16 @@
 {
   "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.18.1",
-    "netlify-lambda": "^2.0.15",
-    "serverless-http": "^3.0.2"
+    "express": "^4.18.1"
   },
   "name": "clockwebsite",
   "version": "1.0.0",
   "description": "clock webapp",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MichaelDyvad/clockwebsite.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MichaelDyvad/clockwebsite/issues"
-  },
-  "homepage": "https://github.com/MichaelDyvad/clockwebsite#readme",
-  "scripts": {
-    "start": "./node_modules/.bin/netlify-lambda serve src",
-    "build": "./node_modules/.bin/netlify-lambda build src"
-    }
+    "start": "node index.js"
+  }
 }

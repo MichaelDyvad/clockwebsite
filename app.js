@@ -3,9 +3,6 @@ import express from "express";
 import path from "path";
 const app = express();
 
-
-
-
 app.use(express.static("public"));
 
 
@@ -14,7 +11,7 @@ app.get("/", (req, res) => {
     
 });
 
-app.listen(8080, (error)=> {
+app.listen(process.env.PORT || 8080, (error)=> {
     console.log(error);
     console.log("Server is running on port", 8080)
 })
